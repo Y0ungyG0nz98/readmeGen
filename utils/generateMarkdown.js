@@ -22,6 +22,20 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Motive
+  ${data.motive}
+
+  ## Why
+  ${data.why}
+
+  ## Benefits
+  ${data.benefits}
+
+  ## Lesson
+  ${data.lesson}
+
+  ## Difference
+  ${data.difference}
 `;
 }
 
